@@ -1,0 +1,60 @@
+.section-long {
+    margin: 0 auto;
+    width: 1400px;
+    height: 359px;
+    padding-left: 120px;
+    padding-top: 120px;
+    background: #FFFFFF;
+}
+
+h3 {
+    font-size: 18px;
+    line-height: 24.59px;
+}
+
+.contacts__block {
+    margin-top: 74px;
+    display: flex;
+}
+
+.contacts__phone,
+.contacts__link {
+    width: 50%;
+}
+
+.contacts__phone:hover,
+.contacts__link:hover {
+    content: "";
+    display: block;
+    margin-bottom: 26px;
+    width: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.contacts__phone:before {
+    background-image: url(../phone.png);
+}
+
+.contacts__link:before {
+    background-image: url(../mail.png);
+}
+
+.contacts__phone {
+    display: block;
+    font-size: 60px;
+    line-height: 60px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.contacts__link {
+    display: inline-block;
+    font-size: 60px;
+    line-height: 60px;
+    opacity: 0.5;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    text-decoration: none;
+    color: #121212;
+}
